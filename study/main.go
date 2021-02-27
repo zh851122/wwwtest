@@ -1,5 +1,6 @@
 package main
 
+//https://goa.lenggirl.com/golang/lib.html
 import (
 	"example.com/m/v2/study/diy"
 	"fmt"
@@ -12,6 +13,10 @@ func init() {
 
 }
 
+// 函数，两个数相加
+func sum(a, b int64) int64 {
+	return a + b
+}
 func main() {
 	//未使用变量,不允许声明
 	//cannot := 6
